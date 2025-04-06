@@ -12,7 +12,7 @@ from aiogram.fsm.storage.memory import MemoryStorage
 from gtts import gTTS
 
 # Bot token
-TOKEN = "7624653142:AAHGxXSp7OjBpCB0nIXeoO3AXA9tdw4kdMk"
+TOKEN = " "
 
 # Initialize bot and dispatcher with memory storage for FSM
 storage = MemoryStorage()
