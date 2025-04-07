@@ -10,9 +10,11 @@ from aiogram.filters.state import State, StatesGroup
 from aiogram.fsm.context import FSMContext
 from aiogram.fsm.storage.memory import MemoryStorage
 from gtts import gTTS
+from dotenv import load_dotenv
+import os
 
-# Bot token
-TOKEN = " "
+load_dotenv()
+TOKEN = os.getenv("BOT_TOKEN")
 
 # Initialize bot and dispatcher with memory storage for FSM
 storage = MemoryStorage()
